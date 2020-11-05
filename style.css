@@ -85,6 +85,7 @@ a:hover {
 
 .schedule {
     margin: auto;
+    text-align: left;
     width: 50vw;
 }
 
@@ -117,8 +118,7 @@ a:hover {
 }
 
 .schedule .time {
-    width: 8rem;
-    padding-right: 2rem;
+    padding-right: 4rem;
 }
 
 .schedule .workshop {
@@ -194,5 +194,32 @@ a:hover {
         transform: rotate(0deg);
         right: 110px;
         top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .quack {
+        display: none;
+    }
+    .schedule, .info-links {
+        width: 70%;
+    }
+    .left, .right {
+        text-align: center;
+        width: 90%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .schedule, .info-links {
+        width: 95%;
+    }
+    html {
+        font-size: 14px;
+    }
+    .schedule .time {
+        padding-right: 2rem;
     }
 }
