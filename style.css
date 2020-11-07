@@ -29,13 +29,21 @@ h3 {
 }
 
 a {
-    color: #ffbe31;
+    color: white;
     text-decoration: none;
     transition: 0.3s;
 }
 
 a:hover {
-    color: #ffedc6;
+    color: #ffbe31;
+}
+
+.link {
+    color: #ffbe31 !important;
+}
+
+.link:hover {
+    color: #ffedc6 !important;
 }
 
 .spacer {
